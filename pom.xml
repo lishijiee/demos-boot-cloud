@@ -6,8 +6,9 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.2.6.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.lishijiee.demo</groupId>
+    <groupId>com.lishijiee.boot</groupId>
     <artifactId>demos-boot-cloud</artifactId>
     <version>${revision}</version>
     <packaging>pom</packaging>
@@ -57,6 +58,7 @@
     <modules>
         <module>demo-user</module>
         <module>demo-utils</module>
+        <module>demo-hello</module>
     </modules>
 
 <!--    <build>-->
