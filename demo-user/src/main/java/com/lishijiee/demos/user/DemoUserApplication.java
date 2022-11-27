@@ -1,13 +1,13 @@
-package com.lishijiee.demosbootcloud;
+package com.lishijiee.demos.user;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DemosBootCloudApplication {
+public class DemoUserApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(DemosBootCloudApplication.class, args);
+        SpringApplication.run(DemoUserApplication.class, args);
     }
 
 }
